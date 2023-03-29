@@ -1,10 +1,9 @@
-import React, { useContext } from "react";
-import { Context } from "../store/appContext";
+import React from "react";
 import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import store from "../store/store";
 
 export const Home = () => {
-	const { store, actions } = useContext(Context);
 
 	return (
 		<div className="text-center mt-5">
